@@ -8,6 +8,6 @@ int main()
 	if (a%2==0)
 		printf("%d(은)는 짝수이다.", a);
 	else
-		printf("%d(은)는 홀수이다.", a);
+		printf("%d(은)는 홀수이다...", a);
 	return 0;
 }
