@@ -2,6 +2,7 @@
 
 int main()
 {
+
 	int a;
 	printf("정수 입력 :");
 	scanf_s("%d", &a);
