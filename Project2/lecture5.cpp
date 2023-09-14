@@ -1,16 +1,14 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main()
 {
+
 	int a;
-
-	printf("년도 입력:");
+	printf("정수 입력 :");
 	scanf_s("%d", &a);
-
-	if (((a % 4 == 0)&&(a % 100 != 0))||(a%400==0))
-	{	
-		printf("윤년 입니다.");
-	}
+	if (a%2==0)
+		printf("%d(은)는 짝수이다.", a);
 	else
-		printf("윤년이 아닙니다.");
+		printf("%d(은)는 홀수이다.", a);
+	return 0;
 }
